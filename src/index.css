@@ -53,12 +53,12 @@
   }
 
   body {
-    @apply bg-dark text-foreground font-roboto;
+    @apply bg-background text-foreground font-roboto;
     background-color: #1a1a1a;
     color: #f5f5f5;
   }
 
   html {
-    @apply dark;
+    color-scheme: dark;
   }
 }
